@@ -1,0 +1,94 @@
+.navbar {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.9);
+    height: 60px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+    background: url(img/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    color: white;
+}
+
+h1 {
+    font-size: 7em;
+    text-shadow: 5px 5px 15px #494949;
+}
+
+p {
+    font-size: 1.5em;
+    text-shadow: 5px 5px 15px #494949;
+}
+
+.container-first {
+    padding-top: 150px;
+}
+
+#addExercise {
+    color: black;
+}
+
+.btn-orange {
+    color: white;
+    background-color: orange;
+    width: 100%;
+    box-shadow: 1px 1px 5px #494949;
+}
+
+.btn-add {
+    width: auto;
+}
+
+.center-content {
+    display: block;
+    margin: auto auto;
+}
+
+.active a {
+    color: orange !important;
+}
+
+.form-control:focus {
+    border-color: orange;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.margin-bottom {
+    margin-bottom: 15px;
+}
+
+.borderless th {
+    border: none;
+    border-bottom: white solid 1px;
+}
+
+.borderless td {
+    border: none;
+}
+
+.padding-top {
+    padding-top: 4em;
+}
+
+.form-group {
+    margin-bottom: 0.5em;
+}
+
+.padding-bottom {
+    padding-bottom: 1em;
+}
+
+.modal {
+    color: black;
+}

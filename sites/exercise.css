@@ -1,0 +1,51 @@
+.container-first {
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+hr {
+    background-color: white;
+}
+
+p {
+    font-size: 1em;
+    text-shadow: 0px 0px 0px #494949;
+}
+
+.table td {
+    padding-top: 0.75em;
+    padding-bottom: 0;
+}
+
+.table-col-check {
+    width: 14px;
+    text-align: left;
+}
+
+.padding-left {
+    padding-left: 0.75em;
+}
+
+.text-padding {
+    padding-left: 2em;
+    padding-right: 1em;
+}
+
+.pl-0 {
+    padding-left: 0;
+}
+
+.pr-0 {
+    padding-right: 0 !important;
+}
+
+.ml-0 {
+    margin-left: 0 !important;
+}
+
+.button-margin-right {
+    margin-right: 15px;
+}

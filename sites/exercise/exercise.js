@@ -35,19 +35,36 @@ $(document).ready(function () {
             $('#modalDeleteExercise').modal('show');
         }
     });
+    
+    /* navbar */
+    $('#navExercise').addClass('active');
 
-    $('#saveExercise').bind('click', function () {
-        console.log('saveExerciseClick')
+    $('#navBrandA').bind('click', function () {
+        window.location.href = '../../index.html';
     });
 
-    loadNavbar();
+    $('#navDashboardA').bind('click', function () {
+        window.location.href = '../dashboard/dashboard.html';
+    });
+
+    $('#navExerciseA').bind('click', function () {
+        window.location.href = '#';
+    });
+
+    $('#navTrainingA').bind('click', function () {
+        window.location.href = '../training/training.html';
+    });
+
+    $('#navUserA').bind('click', function () {
+        window.location.href = '../user/user.html';
+    });
 
     $('#btnLogout').bind('click', function () {
         sessionStorage.removeItem('user');
 
         loadNavbar();
 
-        window.location.href = '../sites/login.html';
+        window.location.href = '../login/login.html';
     });
 });
 

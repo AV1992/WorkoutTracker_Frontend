@@ -34,7 +34,7 @@ $(document).ready(function () {
                 success: function (data) {
                     sessionStorage.setItem("user", JSON.stringify(data));
 
-                    window.location.href = "dashboard.html";
+                    window.location.href = "../dashboard/dashboard.html";
                 },
                 error: function (jqXHR, textStatus, errorThrown) {
                     //console.log(textStatus, errorThrown);
@@ -43,5 +43,16 @@ $(document).ready(function () {
                 }
             });
         }
+    });
+
+    /* navbar */
+    $('#navLogin').addClass('active');
+
+    $('#navBrandA').bind('click', function () {
+        window.location.href = '../../index.html';
+    });
+
+    $('#navRegister').bind('click', function () {
+        window.location.href = "../register/register.html";
     });
 });

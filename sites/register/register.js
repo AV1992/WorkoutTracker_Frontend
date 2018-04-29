@@ -94,4 +94,15 @@ $(document).ready(function () {
             });
         }
     });
+
+    /* navbar */
+    $('#navRegister').addClass('active');
+
+    $('#navBrandA').bind('click', function () {
+        window.location.href = '../../index.html';
+    });
+
+    $('#navLogin').bind('click', function () {
+        window.location.href = "../login/login.html";
+    });
 });
